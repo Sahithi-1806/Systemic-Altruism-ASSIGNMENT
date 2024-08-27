@@ -5,7 +5,9 @@ OVERVIEW
 
 The Human Rights Telegram Bot is an AI-powered chatbot designed to provide users with accurate, empathetic information about various human rights topics. This bot is built using Python, the Telegram Bot API, and Cohere’s advanced language models, making it a powerful tool for spreading awareness and knowledge about human rights in an accessible way.
 
-Features
+FEATURES
+
+
 ->  User-Friendly Interface: Easily accessible via Telegram, providing instant responses to user queries.
 
 
