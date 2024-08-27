@@ -29,7 +29,7 @@ from telegram.ext import (
 nest_asyncio.apply()
 
 # Initialize Cohere Client
-cohere_client = cohere.Client('29FaQ29FS6hIfRJDvHAFmHaxMOtqv33dJHzNhj7E')
+cohere_client = cohere.Client('cohere-api')
 
 # Telegram command /start
 async def start(update: Update, context: CallbackContext) -> None:
@@ -50,7 +50,7 @@ async def handle_message(update: Update, context: CallbackContext) -> None:
 
 async def main() -> None:
     # Create the Application instance
-    application = Application.builder().token("7432261672:AAFbpzpOlLIARb0osZdqDqcis3wTQqJCq20").build()
+    application = Application.builder().token("telegram bot api").build()
 
     # Add handlers
     application.add_handler(CommandHandler("start", start))
